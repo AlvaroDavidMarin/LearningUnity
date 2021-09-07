@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Palyer : MonoBehaviour
+public class Player : MonoBehaviour
 {
     private BoxCollider2D boxCollider;
     private Vector3 moveDelta;
@@ -16,13 +16,14 @@ public class Palyer : MonoBehaviour
 
     private void FixedUpdate()
     {
+        //Input Variables. you can check the inputs under 
         float x = Input.GetAxisRaw("Horizontal");
         float y = Input.GetAxisRaw("Vertical");
 
         // Rest MoveDelta
         moveDelta = new Vector3(x, y, 0);
 
-        //Swap Sprite Direction, wether you're going right or left
+        //Swap Sprite Direction, wether you're going right or left (Changes orientation of the sprite)
         if(moveDelta.x > 0)
         {
             transform.localScale = Vector3.one;

@@ -173,6 +173,9 @@ TextureImporter:
   - first:
       213: -3149050133103254212
     second: Weapon_3
+  - first:
+      213: -5574873882498854606
+    second: Enemy_0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -1458,7 +1461,7 @@ TextureImporter:
         width: 10
         height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1466,6 +1469,27 @@ TextureImporter:
       bones: []
       spriteID: c35eb7c96935c44d0800000000000000
       internalID: -3149050133103254212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2319d06adb112a2b0800000000000000
+      internalID: -5574873882498854606
       vertices: []
       indices: 
       edges: []
